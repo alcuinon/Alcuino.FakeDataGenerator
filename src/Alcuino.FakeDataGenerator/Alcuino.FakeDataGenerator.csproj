@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Alcuino.FakeDataGenerator</PackageId>
+    <Version>8.0.0</Version>
+    <Authors>Niño Alcuino</Authors>
+    <Product>Fake Data Generator</Product>
+    <Description>
+      `Fake Data Generator` is a utility class that simplifies the generation of fake data using the **Bogus** library. It dynamically assigns realistic values to properties based on their names and types.
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Data; Data Generator; Bogus</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/alcuinon/Alcuino.FakeDataGenerator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alcuinon/Alcuino.FakeDataGenerator</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="35.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="/" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>

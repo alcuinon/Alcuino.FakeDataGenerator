@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9B482D5-3A4C-4E62-95E2-95E578C92079}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alcuino.FakeDataGenerator", "src\Alcuino.FakeDataGenerator\Alcuino.FakeDataGenerator.csproj", "{E40D448B-2E4E-454A-B702-BC99F2C6AC53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40D448B-2E4E-454A-B702-BC99F2C6AC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40D448B-2E4E-454A-B702-BC99F2C6AC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40D448B-2E4E-454A-B702-BC99F2C6AC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40D448B-2E4E-454A-B702-BC99F2C6AC53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4573300-DC0E-4D27-8647-A83E8F8BE7C2}
+	EndGlobalSection
+EndGlobal

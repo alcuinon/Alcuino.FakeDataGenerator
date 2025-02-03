@@ -1,0 +1,10 @@
+open terminal and write 
+
+dotnet pack
+
+then look for the file "Alcuino.FakeDataContext.1.0.0.nupkg"
+under Release folder
+
+upload the nupkg file to nuget site
+
+Done!
